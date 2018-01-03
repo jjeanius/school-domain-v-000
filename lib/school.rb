@@ -8,15 +8,9 @@ class School
   end
 
 def add_studentst(student, grade)
-  @student=student
-  @grade=grade
+  school_roster[student] = []
+  school_roster[grade] = []
 end
-
-def add_student
-  @student
-  @grade
-end
-
 
   def sort=(sort)
     @sort=sort
