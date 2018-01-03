@@ -16,7 +16,8 @@ def add_studentst(student, grade)
 end
 
 def add_student
-  @add_student
+  @student
+  @grade
 end
 
 
