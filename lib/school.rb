@@ -3,7 +3,11 @@ class School
   attr_accessor :add_student, :grade, :sort
   attr_reader :name
 
-  roster ={}
+  roster = []
+
+
+
+
 
   def initialize (name)
     @name = name
