@@ -1,7 +1,7 @@
 class School
 
-  attr_accessor :add_student, :grade, :sort
-  attr_reader :name
+  #attr_accessor :add_student, :grade, :sort
+  #attr_reader :name
 
 school_roster = {}
 
@@ -15,7 +15,9 @@ def add_studentst(student, grade)
   @grade=grade
 end
 
-
+def add_student
+  @add_student
+end
 
 
   def sort=(sort)
