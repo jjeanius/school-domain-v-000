@@ -4,17 +4,17 @@ class School
 
   def initialize (school_name)
     @school_name = school_name
-    school_roster = {}
+    @school_roster = {}
   end
 
-def add_studentst(student, grade)
-  school_roster[grade] ||= []
-  school_roster[grade] << student
-end
+  def add_studentst(student, grade)
+    school_roster[grade] ||= []
+    school_roster[grade] << student
+  end
 
-def grade(grade)
-  roster[student]
-end
+  def grade(grade)
+    roster[student]
+  end
 
   def sort
     sort ={}
@@ -22,5 +22,5 @@ end
       sorted[grade] = students.sort
   end
   sorted
-end
+  end
 end
