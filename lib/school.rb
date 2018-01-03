@@ -14,6 +14,7 @@ end
 
 def grade(grade)
   roster[student]
+end
 
   def sort
     sort ={}
@@ -21,4 +22,5 @@ def grade(grade)
       sorted[grade] = students.sort
   end
   sorted
+end
 end
