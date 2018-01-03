@@ -8,7 +8,7 @@ class School
   end
 
 def add_studentst(student, grade)
-  school_roster[grade] || = []
+  school_roster[grade] ||= []
   school_roster[grade] << student
 end
 
@@ -21,5 +21,4 @@ def grade(grade)
       sorted[grade] = students.sort
   end
   sorted
-end
 end
