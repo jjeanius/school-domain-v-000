@@ -7,7 +7,14 @@ school_roster = {}
 
   def initialize (name)
     @name = name
+    school_roster = {}
   end
+
+def add_studentst(student, grade)
+  @student=student
+  @grade=grade
+end
+
 
 
 
