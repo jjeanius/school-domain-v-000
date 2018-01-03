@@ -8,21 +8,18 @@ class School
   end
 
 def add_studentst(student, grade)
-  school_roster[student] = []
-  school_roster[grade] = []
+  school_roster[grade] || = []
+  school_roster[grade] << student
 end
 
-  def sort=(sort)
-    @sort=sort
+def grade(grade)
+  roster[student]
+
+  def sort
+    sort ={}
+    roster.each do |grade, students|
+      sorted[grade] = students.sort
   end
-
- #roster [grade] << grade
-  #  roster [student] << name
-
-
+  sorted
 end
-
-
-
-
-# code here!
+end
