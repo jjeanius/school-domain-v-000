@@ -15,8 +15,8 @@ class School
     @sort=sort
   end
 
- roster [grade] << grade
-    roster [student] << name
+ #roster [grade] << grade
+  #  roster [student] << name
 
 
 end
